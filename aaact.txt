@@ -1,5 +1,6 @@
 //weird item drop
 //updated by boris888 @GS
+//ok
 [Enable]
 006905E3:
 DB 75
