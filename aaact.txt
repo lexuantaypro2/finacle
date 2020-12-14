@@ -1,0 +1,100 @@
+//weird item drop
+//updated by boris888 @GS
+[Enable]
+006905E3:
+DB 75
+
+
+[Disable]
+006905E3: 
+DB 74
+
+
+
+
+//instant air loot
+//updated by boris888 @GS
+[Enable]
+00693019:
+DB 74
+
+
+[Disable]
+00693019: 
+DB 75
+
+
+//Char NO KB
+//updated by boris888 @GS
+[Enable]
+00B8D8DB:
+DB 00
+
+
+[Disable]
+00B8D8DB: 
+DB 01
+
+
+//instant drop
+//updated by boris888 @GS
+[Enable]
+00690605:
+DB 25
+
+
+[Disable]
+00690605: 
+DB 0D
+
+
+//Unlimited Attack
+//updated by boris888 @GS
+
+[Enable]
+0114E000:
+DB EB
+
+
+[Disable]
+0114E000: 
+DB 7E
+
+
+//always face left
+//updated by boris888 @GS
+
+[Enable]
+00489892:
+DB B9 07 00 00 00 90 07 00 00 00 90
+
+
+[Disable]
+00489892: 
+DB 83 E1 01 83 C9 06
+
+
+
+
+// No Skill Movement
+//updated by boris888 @GS
+[Enable]
+00B8D8DF:
+db D8 D2
+
+
+[Disable]
+00B8D8DF: 
+db D8 D1
+
+
+// No aran attack movment
+//updated by boris888 @GS
+[Enable]
+0115484F:
+db 00
+
+
+[Disable]
+0115484F: 
+db 01

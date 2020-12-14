@@ -1,0 +1,15 @@
+program farm;
+begin
+While True do
+begin
+
+while Mobs.Count > 0 do //attack mobs Sendkey('d');
+begin
+sleep(200);
+Sendkey('a');
+end;
+
+end;
+END.
+
+Add more text

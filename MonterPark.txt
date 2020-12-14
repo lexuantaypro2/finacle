@@ -1,0 +1,125 @@
+program monterpark;
+begin
+While True do
+begin
+
+MaplePrint('Stage 1');
+while Character.MapID = 954040000 do //MonsterParkArea
+begin
+if Mobs.Count = 0 then
+begin
+Character.Teleport(-351,-179);
+sleep(4000);
+Sendkey('{UP}');
+end
+else
+while Mobs.Count > 0 do //attack mobs Sendkey('d');
+begin
+sleep(100);
+Sendkey('d');
+end;
+end;
+
+MaplePrint('Stage 2');
+while Character.MapID = 954040100 do //MonsterParkArea
+begin
+if Mobs.Count = 0 then
+begin
+Character.Teleport(1009,-613);
+sleep(4000);
+Sendkey('{UP}');
+end
+else
+while Mobs.Count > 0 do //attack mobs Sendkey('d');
+begin
+sleep(100);
+Sendkey('d');
+end;
+end;
+
+MaplePrint('Stage 3');
+while Character.MapID = 954040200 do //MonsterParkArea
+begin
+if Mobs.Count = 0 then
+begin
+Character.Teleport(609,-915);
+sleep(4000);
+Sendkey('{UP}');
+end
+else
+while Mobs.Count > 0 do //attack mobs Sendkey('d');
+begin
+sleep(100);
+Sendkey('d');
+end;
+end;
+
+MaplePrint('Stage 4');
+while Character.MapID = 954040300 do //MonsterParkArea
+begin
+if Mobs.Count = 0 then
+begin
+Character.Teleport(-581,-570);
+sleep(4000);
+Sendkey('{UP}');
+end
+else
+while Mobs.Count > 0 do //attack mobs Sendkey('d');
+begin
+sleep(100);
+Sendkey('d');
+end;
+end;
+
+MaplePrint('Stage 5');
+while Character.MapID = 954040400 do //MonsterParkArea
+begin
+if Mobs.Count = 0 then
+begin
+Character.Teleport(-314,-180);
+sleep(400);
+Sendkey('{UP}');
+end
+else
+while Mobs.Count > 0 do //attack mobs Sendkey('d');
+begin
+sleep(100);
+Sendkey('d');
+end;
+end;
+
+MaplePrint('Stage Final');
+while Character.MapID = 954040500 do //MonsterParkArea
+begin
+if Mobs.Count = 0 then
+begin
+Character.Teleport(-869,-914);
+sleep(400);
+Sendkey('{UP}');
+end
+else
+while Mobs.Count > 0 do //attack mobs Sendkey('d');
+begin
+sleep(100);
+Sendkey('d');
+end;
+end;
+
+MaplePrint('Home');
+while Character.MapID = 951000000 do //MonsterParkArea
+begin
+Character.Teleport(500,92);
+sleep(1000);
+Sendkey('{UP}');
+sleep(500);
+Sendkey('{DOWN}');
+sleep(500);
+Sendkey('{DOWN}');
+sleep(500);
+Sendkey('{ENTER}');
+
+end;
+Sendkey('{ENTER}');
+
+end;
+END.
